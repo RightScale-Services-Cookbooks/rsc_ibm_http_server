@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-node.override['ihs']['install']['repositoryLocation']=='http://www.ibm.com/software/repositorymanager/com.ibm.websphere.IHS.v85'
+node.default['ihs']['install']['repositoryLocation']='http://www.ibm.com/software/repositorymanager/com.ibm.websphere.IHS.v85'
 
 
 Chef::Log.info "Install IHS URL: #{node['ihs']['install']['repositoryLocation']}"
