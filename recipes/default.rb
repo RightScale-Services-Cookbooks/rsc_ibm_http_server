@@ -17,5 +17,5 @@
 # limitations under the License.
 #
 
-
+#[:ihs][:install][:repositoryLocation]='http://www.ibm.com/software/repositorymanager/com.ibm.websphere.IHS.v85'
 include_recipe 'ihs::default'
