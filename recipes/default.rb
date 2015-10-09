@@ -18,4 +18,4 @@
 #
 
 
-include_java 'ihs::default'
+include_recipe 'ihs::default'
