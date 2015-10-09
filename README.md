@@ -1,4 +1,4 @@
-# rs-storage cookbook
+# rs-ibm_http_server cookbook
 
 [![Release](https://img.shields.io/github/release/rightscale-cookbooks/rs-storage.svg?style=flat)][release]
 [![Build Status](https://img.shields.io/travis/rightscale-cookbooks/rs-storage.svg?style=flat)][travis]
