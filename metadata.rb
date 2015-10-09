@@ -9,4 +9,4 @@ version          '0.1.0'
 depends 'iim'
 depends 'ihs'
 
-recipe 'rsc_ibm_http_server::default'
+recipe 'rsc_ibm_http_server::default', 'Installs and configures IBM HTTP SERVER'
