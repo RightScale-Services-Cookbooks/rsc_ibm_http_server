@@ -21,5 +21,5 @@ node.default['ihs']['install']['repositoryLocation']='https://s3.amazonaws.com/e
 node.default['im']['install_zip']['url']='http://s3.amazonaws.com/ent-sw/ihs.zip'
 
 Chef::Log.info "Install IHS URL: #{node['ihs']['install']['repositoryLocation']}"
-
+include_recipe "iim"
 include_recipe 'ihs::default'
