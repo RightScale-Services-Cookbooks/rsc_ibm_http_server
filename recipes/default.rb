@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-node.default['ihs']['install']['repositoryLocation']='https://s3.amazonaws.com/ent-sw/ihs.7000.linux.ia32.tar'
+node.default['ihs']['install']['repositoryLocation']='https://s3.amazonaws.com/ent-sw/ihs.zip'
 
 
 Chef::Log.info "Install IHS URL: #{node['ihs']['install']['repositoryLocation']}"
